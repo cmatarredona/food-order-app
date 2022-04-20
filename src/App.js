@@ -13,7 +13,6 @@ function App() {
     setCartIsShown(false);
   };
   const order = () => {
-    closeCartHandle();
     console.log("Ordering...");
   };
   return (
